@@ -23,7 +23,16 @@
       --card-bg: #0b160b;
       --glow: rgba(76, 175, 80, 0.35);
     }
-
+    @font-face {
+      font-family: 'CustomFont';
+      src: url('JetBrainsMono-Bold.woff2') format('woff2');
+      font-weight: normal;
+      font-style: normal;
+      font-display: swap;  
+    }
+    button, input, select, textarea, li {
+      font-family: CustomFont, serif;
+    }
     body {
       background-color: var(--bg);
       background-image:
